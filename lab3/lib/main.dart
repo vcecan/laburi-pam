@@ -8,7 +8,7 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
+  //root of application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -120,7 +120,7 @@ class _CalculatorState extends State<Calculator> {
                   child: Text(
                     equation,
                     style: const TextStyle(
-                      color: Color.fromARGB(255, 193, 98, 98),
+                      color: Color(0xffa9a7a7),
                       fontWeight: FontWeight.w500,
                       fontSize: 18,
                     ),
@@ -301,7 +301,7 @@ class _CalculatorState extends State<Calculator> {
                     Padding(
                       padding: const EdgeInsets.all(10.0),
                       child: CalcButton('=', const Color(0xffEEF0F2),
-                          const Color(0xff11998E)),
+                          Color.fromARGB(255, 255, 0, 0)),
                     ),
                   ],
                 ),
