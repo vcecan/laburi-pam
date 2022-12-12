@@ -17,18 +17,6 @@ class ButtonCategories extends StatelessWidget {
         child: Column(
           children: [
             Container(
-              // decoration: BoxDecoration(
-              //   boxShadow: [
-              //     BoxShadow(
-              //       color: Color(0xffF4F4F4).withOpacity(1),
-              //       spreadRadius: 10,
-              //       blurRadius: 30,
-              //
-              //       offset: Offset(0, 9), // changes position of shadow
-              //     ),
-              //   ],
-              //
-              // ),
               child: CircleAvatar(
                   child: Padding(
                     padding: const EdgeInsets.all(10.0),

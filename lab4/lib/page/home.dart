@@ -31,7 +31,6 @@ class HomeState extends State<Home> {
     HomeController controller = Get.find();
     controller.readJsonFile();
     super.initState();
-    //fetchPosts();
   }
 
   @override
@@ -95,7 +94,6 @@ class HomeState extends State<Home> {
                   itemBuilder: (context, index) {
                     return BestSelling(
                       product: controller.product[index],
-                      //color: Colors.red,
                     );
                   },
                   staggeredTileBuilder: (index) => StaggeredTile.fit(1),
